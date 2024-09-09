@@ -1,0 +1,49 @@
+#banner {
+    height: 98vh;
+    background: url(bg.jpg);
+    background-size: cover;
+
+}
+.btn {
+    padding: 15px 30px !important;
+    border-radius: 60px !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    transition: all .4s ease !important;
+}
+
+.btn-brand{
+         background-color: orangered !important;
+         color: #fff !important;
+         border: 3px solid #fff !important;
+}
+
+.btn-brand:hover {
+    background-color: transparent !important;
+    border: 3px solid orangered !important;
+    color: orangered !important;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+#about h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: orangered;
+}
+
+#services{
+    background-color: #fafafa;
+}
+
+#services h3 {
+    font-size: 55px;
+    font-weight: 900;
+    color: orangered;
+}
+
+.uwu{
+    width: 40;
+}
