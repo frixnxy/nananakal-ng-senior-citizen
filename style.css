@@ -42,8 +42,70 @@ section {
     font-size: 55px;
     font-weight: 900;
     color: orangered;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black(7, 2, 2);
 }
 
 .uwu{
     width: 40;
+}
+
+#cta {
+    height: 70vh;
+    background: url(yow.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.testimonials {
+    border: 2px solid brown;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.testimonials img{
+    width: 65px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.testimonials a {
+     color: brown;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-button {
+    background-color: brown;
+    border: none;
+    border-bottom: 1px solid brown;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid brown;
+    padding: 10px 15px;
+    margin-left: 0%;
+    background-color: #f8f8f8;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: brown;
+    color:#fff;
+}
+
+#faq {
+    background-color: white;
 }
