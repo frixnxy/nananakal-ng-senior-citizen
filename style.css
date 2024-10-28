@@ -46,9 +46,11 @@ section {
     -webkit-text-stroke-color: black(7, 2, 2);
 }
 
-.uwu{
-    width: 40;
+.card-img-top{
+    width: 60% !important;
 }
+
+
 
 #cta {
     height: 70vh;
@@ -108,4 +110,39 @@ section {
 
 #faq {
     background-color: white;
+}
+
+#footer {
+    background-color: #3D2314;
+    padding: 50px;
+}
+
+#footer ul.list-undtyled li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer ul.list-undtyled li:hover a{
+    color: brown(8, 47, 8);
+
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0;
+}
+
+@media screen and (max-width:767px) {
+    #about img {
+        height: 300px;
+    }
+}
+
+#reviews h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: orangered;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black(7, 2, 2);
 }
